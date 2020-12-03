@@ -1,4 +1,4 @@
 # speed_test
 Network Speed test
-![Test Image 4](https://github.com/tograh/testrepository/3DTest.png 837)
-![Test Image 1](3DTest.png)
+
+![snapshot](https://github.com/phonixcode/speed_test/blob/main/snapsot/IMG-20201123-WA0049.jpg)
