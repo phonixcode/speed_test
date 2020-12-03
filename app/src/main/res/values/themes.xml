@@ -1,0 +1,70 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SpeedTest" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/colorPrimary</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name = "AppToolbar" parent = "Widget.AppCompat.Toolbar">
+        <item name = "popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name = "android:background">@color/colorPrimaryDark</item>
+        <item name = "android:elevation">@dimen/_4sdp</item>
+
+    </style>
+
+    <style name = "ToolbarTitleAppearance" parent = "@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name = "android:textSize">@dimen/_16ssp</item>
+        <item name = "android:textColor">@color/white</item>
+        <item name = "android:fontFamily">@font/opensans_regular</item>
+    </style>
+
+    <style name = "ToolbarSubtitleAppearance" parent = "@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
+        <item name = "android:textSize">@dimen/_12ssp</item>
+        <item name = "android:textColor">@color/textColor2</item>
+        <item name = "android:fontFamily">@font/opensans_regular</item>
+    </style>
+
+    <style name = "UnitTextStyle">
+        <item name = "android:layout_gravity">center_horizontal</item>
+        <item name = "android:textColor">@color/cp_1</item>
+        <item name = "android:textSize">@dimen/_12ssp</item>
+        <item name = "android:fontFamily">@font/opensans_regular</item>
+
+    </style>
+
+    <style name = "ValueTextStyle">
+        <item name = "android:layout_gravity">center_horizontal</item>
+        <item name = "android:textColor">@color/cp_1</item>
+        <item name = "android:textSize">@dimen/_24ssp</item>
+        <item name = "android:fontFamily">@font/opensans_light</item>
+    </style>
+
+    <style name = "LabelTextStyle">
+        <item name = "android:layout_gravity">center_horizontal</item>
+        <item name = "android:textColor">@color/cp_1</item>
+        <item name = "android:textSize">@dimen/_12ssp</item>
+        <item name = "android:fontFamily">@font/opensans_regular</item>
+    </style>
+
+    <style name = "MyDialogTheme" parent = "Theme.AppCompat.Light.Dialog.Alert">
+        <item name = "colorAccent">@color/white</item>
+        <item name = "android:background">@color/dialogbg</item>
+        <item name = "android:windowNoTitle">true</item>
+    </style>
+
+    <style name = "CustomRadioTheme" parent = "Widget.AppCompat.CompoundButton.RadioButton">
+        <item name = "android:colorControlNormal">@color/textColor2</item>
+        <item name = "android:colorControlActivated">@color/cp_0</item>
+        <item name = "android:colorControlHighlight">@color/cp_4</item>
+    </style>
+
+</resources>
